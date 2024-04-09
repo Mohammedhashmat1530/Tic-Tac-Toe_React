@@ -1,9 +1,17 @@
+import Board from './Components/Board';
+import Heading from './Components/Heading';
 
 import './App.css';
 
 function App() {
   return (
-    <div>Huslter</div>
+    <div className='App'>
+      <Heading />
+
+      <Board />
+
+    </div>
+
   );
 }
 
